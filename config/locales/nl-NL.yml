@@ -1,70 +1,70 @@
 nl-NL:
-  spree_mail: Spree Mail
-  newsletter_sign_up: Sign up for our Newsletter
+  spree_mail: E-mail
+  newsletter_sign_up: Inschrijven voor onze nieuwsbrief
   
-  newsletter: Newsletter
-  newsletter_signed_up: You're currently enrolled in our newsletter!
-  newsletter_signup: You're currently not a subscriber to our newsletter. Click below to become a subscriber!
-  subscribe: Subscribe to our Newsletter
+  newsletter: Nieuwsbrief
+  newsletter_signed_up: U bent ingeschreven voor onze nieuwsbrief
+  newsletter_signup: U bent niet ingeschreven voor onze nieuwsbrief. Klik hier onder om u aan te melden.
+  subscribe: Inschrijven voor onze nieuwsbrief
   
-  subscribers: Subscribers
-  listing_subscribers: Listing Subscribers
-  show_subscriber: Show Subscriber
-  new_subscriber: New Subscriber
-  editing_subscriber: Editing Subscriber
-  view_unsubscribed: View Unsubscribed
-  view_all_subscribers: View All Subscribers
+  subscribers: Aanmeldingen
+  listing_subscribers: Lijst aanmeldingen
+  show_subscriber: Aanmeldingen tonen
+  new_subscriber: Nieuwe aanmeldingen
+  editing_subscriber: Bewerk aanmelding
+  view_unsubscribed: Uitschrijvingen tonen
+  view_all_subscribers: Alle aanmeldingen
   
   
-  resubscribe: Resubscribe
-  resubscribe_success: "Successfully Resubscribed"
-  resubscribe_failed: "Resubscribe Failed"
-  subscribe_success_public: "You were successfully added to the mailing list!"
-  subscribe_success_failed: "We're sorry, we could not add you to the mailing list. "
-  unsubscribe_success: "Successfully Unsubscribed"
-  unsubscribe_success_public: "You were successfully unsubscribed from the mailing list."
-  unsubscribe_failed: "Unsubscribed failed"
-  unsubscribe_failed_public: "We're sorry, you could not be unsubscribed at this time."
-  subscribe_success: "Thanks for signing up for our newsletter!"
-  subscribe_failed: "Sorry, we could not sign you up."
+  resubscribe: Herinschrijvingen
+  resubscribe_success: "Succesvol heringeschreven "
+  resubscribe_failed: "Oeps! U bent niet heringeschreven"
+  subscribe_success_public: "U bent ingeschreven voor de nieuwsbrief."
+  subscribe_success_failed: "Het spijt ons, we kunnen u op dit moment niet aanmelden."
+  unsubscribe_success: "U bent afgemeld voor onze nieuwsbrief."
+  unsubscribe_success_public: "U bent afgemeld voor de nieuwsbrief."
+  unsubscribe_failed: "Afmelden mislukt"
+  unsubscribe_failed_public: "Het spijt ons, op dit moment kunnen we u niet afmelden."
+  subscribe_success: "Bedankt voor het inschrijven voor onze nieuwsbrief!"
+  subscribe_failed: "Het inschrijven is mislukt."
   
-  subscribe_newsletter_too: "Sign up for our newsletter"
+  subscribe_newsletter_too: "Aanmelden voor nieuwsbrief"
   
-  listing_emails: Listing Emails
-  show_email: Show Email
-  new_email: New Email
-  editing_email: Editing Email
-  unintened_email_view: This email was not intended for you.
-  emails: Emails
+  listing_emails: Lijst E-mails
+  show_email: E-mail tonen
+  new_email: Nieuww E-mail
+  editing_email: Bewerk Email
+  unintened_email_view: Deze e-mail is niet voor u bestemd.
+  emails: E-mails
   
-  to: To
-  send: Send
+  to: Aan
+  send: Verstuur
   body: Body
-  subject: Subject
+  subject: Onderwerp
   message_body: Message Body
   contact: Contact
   
-  delivery_success: Your email was successfully sent!
-  delivery_failed: Sorry, your email could not be sent.
+  delivery_success: U e-mail is succesvol verzonden!
+  delivery_failed: Sorry, uw e-mail kon niet verzonden worden.
   
-  unsubscribe_text: If you would like to Unsubscribe
-  click_here: Click here
-  view_in_browser: to view this email in your browser
-  visit_online: visit us online at
+  unsubscribe_text: Als u zich wilt Afmelden
+  click_here: Klik hier
+  view_in_browser: om deze e-mail in uw browser te zien 
+  visit_online: bezoek ons online op
 
-  received_in_error: "This is a message from %{site_name}. If you believe you have received this in error please let us know."
-  message_sent_to_from_on: "This message was sent to %{to} from %{from} on %{on}."
+  received_in_error: "Dit is een bericht van %{site_name}. Als deze e-mail u niet had moeten bereiken, gelieve het ons te laten weten."
+  message_sent_to_from_on: "Dit bericht is verzonden naar %{to} van %{from} op %{on}."
   
-  unsubscribe_title: Unsubscribe from our Mailing List
-  unsubscribe_mail: Please enter your email address below
-  unsubscribe: Unsubscribe
+  unsubscribe_title: Afmelden van Mailinglijst
+  unsubscribe_mail: Vul uw e-mailadres hier onder in
+  unsubscribe: Afmelden
   
-  select_subscribers: Select subscribers
-  select_all: Select All
-  deselect_all: Deselect All
-  message_details: Message Details
+  select_subscribers: Selecteer ingeschrevenen
+  select_all: Alles selecteren
+  deselect_all: Alles deselecteren 
+  message_details: Berichtdetails
 
-  sign_up_for_our_newsletter: Sign up for our newsletter
+  sign_up_for_our_newsletter: Aanmelden nieuwsbrief
   newsletter_text_signup: Lorem Ipsum dolor sit amet...
 
   activerecord:

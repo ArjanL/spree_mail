@@ -6,6 +6,10 @@ class SubscribersController < Spree::BaseController
     @subscriber = Subscriber.new
   end
   
+  def thanks
+  
+  end
+  
   def show
     return redirect_to(new_subscriber_path) unless @subscriber && @subscriber.active?
   end
@@ -14,7 +18,7 @@ class SubscribersController < Spree::BaseController
     @subscriber = Subscriber.new(params[:subscriber])
     if @subscriber.valid? && @subscriber.save
       flash[:notice] = t('subscribe_success')
-      render :partial => 'thanks'
+      render :action => 'thanks'
     else
       flash[:error] = t('subscribe_failed')
       render :action => 'new'

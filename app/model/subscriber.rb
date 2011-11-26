@@ -9,7 +9,7 @@ class Subscriber < ActiveRecord::Base
   
   #validates :name,  :presence => true
   #validates :email, :email => true, :uniqueness => true
-  validates :email, :email => true, :uniqueness => true
+  validates :email, :uniqueness => true
     
   def active?
     unsubscribed_at.to_s.empty?

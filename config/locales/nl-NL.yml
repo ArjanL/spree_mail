@@ -18,14 +18,14 @@ nl-NL:
   
   resubscribe: Herinschrijvingen
   resubscribe_success: "Succesvol heringeschreven "
-  resubscribe_failed: "Oeps! U bent niet heringeschreven"
+  resubscribe_failed: "U bent niet heringeschreven"
   subscribe_success_public: "U bent ingeschreven voor de nieuwsbrief."
   subscribe_success_failed: "Het spijt ons, we kunnen u op dit moment niet aanmelden."
   unsubscribe_success: "U bent afgemeld voor onze nieuwsbrief."
   unsubscribe_success_public: "U bent afgemeld voor de nieuwsbrief."
   unsubscribe_failed: "Afmelden mislukt"
   unsubscribe_failed_public: "Het spijt ons, op dit moment kunnen we u niet afmelden."
-  subscribe_success: "Bedankt voor het inschrijven voor onze nieuwsbrief!"
+  subscribe_success: "Bedankt voor het inschrijven voor onze nieuwsbrief."
   subscribe_failed: "Het inschrijven is mislukt."
   
   subscribe_newsletter_too: "Aanmelden voor nieuwsbrief"

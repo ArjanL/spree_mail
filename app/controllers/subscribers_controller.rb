@@ -7,7 +7,7 @@ class SubscribersController < Spree::BaseController
   end
   
   def thanks
-  
+  	@title = "Nieuwsbrief"
   end
   
   def show

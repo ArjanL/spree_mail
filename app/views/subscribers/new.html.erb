@@ -2,19 +2,17 @@
   
   <%= hook :subscriber_static_content do %>
     <h1><%= t('newsletter_sign_up') %></h1>
-    <p><%= t('newsletter_text_signup') %></p>
   <% end %>
-  
-</div>
-
-<div class="right">
-  
-  <%= hook :subscriber_sign_up_form do %>
-    <%= render "shared/error_messages", :target => @subscriber %>
+   <%= hook :subscriber_sign_up_form do %>
+   	<%= render "shared/error_messages", :target => @subscriber %>
     <%= form_for @subscriber do |form| %>
       <%= render 'subscribers/fields', :form => form %>
     <% end %>
   <% end %>
+</div>
+
+<div class="right">
+  
   
 </div>
 

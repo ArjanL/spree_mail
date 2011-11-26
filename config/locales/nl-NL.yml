@@ -5,7 +5,7 @@ nl-NL:
   newsletter: Nieuwsbrief
   newsletter_signed_up: U bent ingeschreven voor onze nieuwsbrief
   newsletter_signup: U bent niet ingeschreven voor onze nieuwsbrief. Klik hier onder om u aan te melden.
-  subscribe: Inschrijven voor onze nieuwsbrief
+  subscribe: Inschrijven voor de nieuwsbrief
   
   subscribers: Aanmeldingen
   listing_subscribers: Lijst aanmeldingen
@@ -65,9 +65,9 @@ nl-NL:
   message_details: Berichtdetails
 
   sign_up_for_our_newsletter: Aanmelden nieuwsbrief
-  newsletter_text_signup: Lorem Ipsum dolor sit amet...
+  newsletter_text_signup: 
 
   activerecord:
     errors:
       messages:
-        invalid_email: appears to be invalid
+        invalid_email: is ongeldig

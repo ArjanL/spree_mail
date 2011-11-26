@@ -21,7 +21,7 @@ class SubscribersController < Spree::BaseController
       render :action => 'thanks'
     else
       flash[:error] = t('subscribe_failed')
-      render :action => 'new'
+      redirect_to :root
     end
   end
   

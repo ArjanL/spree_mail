@@ -65,7 +65,7 @@ nl-NL:
   message_details: Berichtdetails
 
   sign_up_for_our_newsletter: Aanmelden nieuwsbrief
-  newsletter_text_signup: 
+  newsletter_text_signup: Er is een probleem opgetreden tijdens het registreren
 
   activerecord:
     errors:

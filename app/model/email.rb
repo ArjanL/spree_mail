@@ -14,7 +14,7 @@ class Email < ActiveRecord::Base
   end
   
   def from
-    MailMethod.current.preferred_mails_from rescue "no-reply@spree-mail-example.com"
+    MailMethod.current.preferred_mails_from rescue "no-reply@domain.com"
   end
   
   def recipients
@@ -51,11 +51,11 @@ class Email < ActiveRecord::Base
   
     def template
       txt=<<TXT
-Hello {{name}},
+		Beste {{name}},
   
 
   
-Regards,
+		Met vriendelijke groet,
 
 #{Spree::Config[:site_name]}
     

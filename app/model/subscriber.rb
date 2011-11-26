@@ -8,6 +8,7 @@ class Subscriber < ActiveRecord::Base
   scope :unsubscribed, where("unsubscribed_at IS NOT NULL").order(:name)
   
   #validates :name,  :presence => true
+  #validates :email, :email => true, :uniqueness => true
   validates :email, :email => true, :uniqueness => true
     
   def active?
@@ -29,5 +30,5 @@ class Subscriber < ActiveRecord::Base
   def email=(value)
     write_attribute :email, value.strip.downcase
   end
-
+  
 end
